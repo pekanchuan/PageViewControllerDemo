@@ -14,6 +14,7 @@
 		C2725B62221BD3D6001B24FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2725B60221BD3D6001B24FD /* LaunchScreen.storyboard */; };
 		C2725B65221BD3D6001B24FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2725B64221BD3D6001B24FD /* main.m */; };
 		C2725B6F221BD3D6001B24FD /* PageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2725B6E221BD3D6001B24FD /* PageViewControllerDemoTests.m */; };
+		C2725B7B221BD510001B24FD /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2725B7A221BD510001B24FD /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C2725B6A221BD3D6001B24FD /* PageViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2725B6E221BD3D6001B24FD /* PageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerDemoTests.m; sourceTree = "<group>"; };
 		C2725B70221BD3D6001B24FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2725B79221BD510001B24FD /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		C2725B7A221BD510001B24FD /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C2725B56221BD3D5001B24FD /* AppDelegate.m */,
 				C2725B58221BD3D5001B24FD /* ViewController.h */,
 				C2725B59221BD3D5001B24FD /* ViewController.m */,
+				C2725B79221BD510001B24FD /* ContentViewController.h */,
+				C2725B7A221BD510001B24FD /* ContentViewController.m */,
 				C2725B5B221BD3D5001B24FD /* Main.storyboard */,
 				C2725B5E221BD3D6001B24FD /* Assets.xcassets */,
 				C2725B60221BD3D6001B24FD /* LaunchScreen.storyboard */,
@@ -203,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2725B7B221BD510001B24FD /* ContentViewController.m in Sources */,
 				C2725B5A221BD3D5001B24FD /* ViewController.m in Sources */,
 				C2725B65221BD3D6001B24FD /* main.m in Sources */,
 				C2725B57221BD3D5001B24FD /* AppDelegate.m in Sources */,
